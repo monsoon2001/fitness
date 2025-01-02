@@ -98,7 +98,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <span role="img" aria-label="phone">
                   📞
-                </span>{" "}
+                </span>
                 +1 (406) 555-0120
               </li>
               <li className="flex items-center">
@@ -108,7 +108,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <span role="img" aria-label="location">
                   <MdLocationOn className="text-2xl mr-1 text-red-500" />
-                </span>{" "}
+                </span>
                 2464 Royal Ln. Mesa, New Jersey 45463
               </li>
             </ul>

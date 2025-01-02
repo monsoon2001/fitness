@@ -9,7 +9,7 @@ const Home = () => {
       className="container bg-gradient-to-b from-[rgb(30,30,40)] to-[rgb(45,44,50)] text-white relative h-auto pt-12"
     >
       <div className="flex justify-between max-w-5xl mx-auto items-center">
-        {/* left side of the page */}
+        {/* left side */}
         <div className="flex-col space-y-8 w-1/2 mt-16">
           <h1 className="text-4xl font-bold leading-snug">
             GET HEALTHY BODY WITH THE PERFECT EXERCISES

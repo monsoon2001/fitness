@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="text-white fixed bg-gradient-to-b from-[#1e1e28] to-[#1d1d27] w-full opacity-90 z-30">
       <div className="flex justify-between max-w-5xl mx-auto py-4 items-center">
-        {/* left side of the navbar */}
+        {/* left side*/}
         <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
           <div className="flex items-center">
             <FaDumbbell className="text-red-500 mr-4 text-4xl" />
@@ -14,6 +14,7 @@ const Navbar = () => {
           </div>
         </Link>
 
+        {/* right side */}
         <ul className="flex space-x-6 items-center">
           <li>
             <Link
